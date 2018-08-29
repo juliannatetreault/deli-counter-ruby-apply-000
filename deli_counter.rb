@@ -16,7 +16,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli, name)
-  if katz_deli == 0 
+  if katz_deli
   puts "There is nobody waiting to be served!"
   else
   katz_deli.each do |name|
